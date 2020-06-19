@@ -1,0 +1,29 @@
+.section{
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article1,
+.article2{
+    width: 50%;
+    text-align: center;
+    background-color:lightblue;
+    box-shadow: 6px 6px 6px -6px;
+}
+img{
+	width:35%;
+	margin: 3%
+	padding-top:6px;
+	border-radius: 10px;
+}
+
+
+@media (min-device-width:320px) and (max-device-width:500px){
+    .article1,
+    .article2{
+        width: 100%;
+        margin: 3% 0;
+    }
+}
